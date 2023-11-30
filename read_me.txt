@@ -51,3 +51,8 @@ DATABASES = {
 створюю суперюзера:
     python manage.py createsuperuser
     artem   a.dorofeev@ukr.net  qawsedrftg
+
+
+email:
+    a.dorofeev_79@meta.ua
+    1q2w#E$R%T
