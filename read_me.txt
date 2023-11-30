@@ -1,4 +1,5 @@
 !!!мої нотатки. скопіювати та видалити !!!
+
 оточення:
     poetry add django pymongo psycopg2 mongoengine
 
@@ -56,3 +57,22 @@ DATABASES = {
 email:
     a.dorofeev_79@meta.ua
     1q2w#E$R%T
+
+.env
+SECRET_KEY=django-insecure-bf4fcujbr81all1x!ja0!24wz!p$h=lxq)o96$t!h%v)9(cdkj
+
+DATABASE_NAME=hw10
+DATABASE_USER=postgres
+DATABASE_PASSWORD=567234
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5432
+
+
+EMAIL_HOST=smtp.meta.ua
+EMAIL_PORT=465
+EMAIL_HOST_USER=a.dorofeev_79@meta.ua
+EMAIL_HOST_PASSWORD=1q2w#E$R%T
+
+
+# DATABASE_ENGINE=django.db.backends.sqlite3
+DATABASESQL_NAME= BASE_DIR / 'db.sqlite3'
